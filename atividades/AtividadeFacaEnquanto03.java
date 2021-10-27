@@ -15,8 +15,7 @@ public class AtividadeFacaEnquanto03 {
 
         do {
             //Processamento de dados
-            somaSalario += salario;
-            cont++;
+            
 
             if (idade > maiorIdade) {
                 maiorIdade = idade;
@@ -35,6 +34,9 @@ public class AtividadeFacaEnquanto03 {
                 System.out.print("Informe salário: R$ ");
                 salario = entrada.nextDouble();
 
+                somaSalario += salario;
+                cont++;
+                
                 if (idade < menorIdade) {
                     menorIdade = idade;
                 }
